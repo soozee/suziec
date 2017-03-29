@@ -1,0 +1,27 @@
+body {background-color:#fff;}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
+}
+.nav {
+	background-color:#b1b1b1;
+	color:#fff;}
+.nav a {
+	text-decoration: none;
+	color:#fff;
+}
