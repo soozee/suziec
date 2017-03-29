@@ -1,0 +1,28 @@
+{
+  "name": "scpractice",
+  "version": "1.0.0",
+  "description": "suziecampbell practice site",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "gulp-postcss": "^6.4.0",
+    "gulp-batch": "^1.0.5",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.5.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soozee/suziec.git"
+  },
+  "author": "suzie campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soozee/suziec/issues"
+  },
+  "homepage": "https://github.com/soozee/suziec#readme"
+}
