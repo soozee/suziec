@@ -20,7 +20,9 @@ body {background-color:#fff;}
 }
 .nav {
 	background-color:#b1b1b1;
-	color:#fff;}
+	color:#fff;
+	padding: 0 2%;
+}
 .nav a {
 	text-decoration: none;
 	color:#fff;
