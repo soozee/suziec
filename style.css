@@ -1,18 +1,10 @@
-body {background-color:#fff;}
+body {
+	background-color:#fff;
+	font-family: "Helvetica Neue","Helvetica","Arial","Kai","KaiTi",Sans-Serif;
+}
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+	margin: 0 auto;
 }
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.column {
-  flex-basis: 100%;
-}
-
 @media screen and (min-width: 800px) {
   .column {
     flex: 1;
@@ -26,4 +18,65 @@ body {background-color:#fff;}
 .nav a {
 	text-decoration: none;
 	color:#fff;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  background-color:#11a3ed;
+}
+.container ul {
+	margin:0;
+	padding:0;}
+.column {
+
+}
+.header {
+	background-color:#11a3ed;
+}
+.header-nav {
+	max-width: 940px;
+	text-align: right;
+	color:#fff;
+}
+.header-nav li {
+	list-style-type: none;
+	display: inline-block;
+	border-radius: 6%;
+	padding: 3%;
+}
+.header-nav li:last-child {
+	padding:0;
+}
+.header-nav a {
+	text-decoration: none;
+	color:#fff;
+}
+.header-inner {
+	max-width:940px;
+	margin: 0 auto;
+	padding:6px 0;
+}
+.green-bg {
+	background-color:#83cd2b;
+}
+.blue-bg:hover {
+	background-color:#1172b8;
+}
+.header-logo {
+	order:-1;
+}
+.signup:hover {
+	box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.16), inset 0px -2px 7px 0px rgba(0,0,0,0.1), inset 0px 2px 0px 0px rgba(255,255,255,0.3);
+	background-color:#7fe604;
+	text-shadow:-1px 2px 4px 0px rgba(0,0,0,0.16), inset 0px -2px 7px 0px rgba(0,0,0,0.1), inset 0px 2px 0px 0px rgba(255,255,255,0.3);
+}
+.langnav img {
+	position: relative;
+	top:10px;
+}
+.jumbotron {
+	background-color:#36ADED;
 }
