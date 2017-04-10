@@ -6,7 +6,7 @@ var sourcemaps = require ('gulp-sourcemaps');
 var autoprefixer = require ('autoprefixer');
 
 gulp.task('autoprefixer', function () {
-    return gulp.src('*.css')
+    return gulp.src(['node_modules/hover.css/css/hover.css','*.css'])
         .pipe(sourcemaps.init())
         .pipe(postcss([ autoprefixer() ]))
         .pipe(sourcemaps.write('.'))
