@@ -23,6 +23,10 @@ body {
 	max-width: 940px;
 	margin: 0 auto;
 }
+.row h3 {
+	margin:0 auto;
+	font-size:34px;
+}
 .container ul {
 	margin: 0;
 	padding: 0;
@@ -177,18 +181,17 @@ section {
 .gray .column {
 	text-align: center;
 }
-.joinnow {
-	max-width: 940px;
-	margin: 0 auto;
-}
-.joinnow h3 {
-	text-align: center;
-	color: #fff;
-}
 .column1 h3 {
 	font-weight: bold;
 	text-align: center;
 }
 .column1 p {
 	text-align: center;
+}
+/* reviews */
+.reviews {
+	background: url(https://d107cgb5lgj7br.cloudfront.net/general/img/landing/world-md.png);
+}
+.reviews h3 {
+	color:#42515E;
 }
